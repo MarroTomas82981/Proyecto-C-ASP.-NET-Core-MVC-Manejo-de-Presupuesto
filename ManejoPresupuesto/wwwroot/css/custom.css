@@ -1,0 +1,50 @@
+﻿#reordenable tr {
+    cursor: move;
+}
+
+.contenedor-totales{
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center;
+}
+
+.activo {
+    color: green;
+}
+.pasivo {
+    color: red;
+}
+
+table {
+    background-color: #d1d1d1;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #d1d1d1;
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Arial Rounded MT';
+    color: #622424
+}
+
+h5{
+    text-align:center;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: Dubai;
+}
+
+a button {
+    width: 150px; /* Ancho del botón en píxeles */
+    height: 150px;
+}
+
